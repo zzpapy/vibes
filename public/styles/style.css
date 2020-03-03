@@ -1,0 +1,183 @@
+:root {
+    --theme: rgb(227, 129, 96)
+  }
+*{
+    box-sizing: border-box;
+}
+body{
+
+    background-color: var(--theme);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+i{
+    margin-right : 1em;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+
+.logo{
+}
+.img_logo{
+    width: 3em;
+}
+header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+}
+.wrapper{
+    background: url('../images/ciel.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+}
+.head{
+    align-self: center;
+    text-align: end;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.top{
+    background: url('../images/foret.png');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.top h1{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.top p{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.explain{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 50vh;
+}
+.explain dl{
+    width: 25%;
+}
+.hide{
+    
+    display: none;
+}
+.block{
+    display: block;
+}
+.cache{
+    animation : accord 2s;
+    
+}
+@keyframes accord{
+    from{
+        height:0;
+    }
+    to{
+        height: auto;
+    }
+}
+.gal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.img_gal{
+    width: 25%;
+    border: 1px solid black;
+    margin: 0;
+    position: relative;
+}
+.img_gal i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    color: rgb(220,220,220,0.5);
+    width: 2em;
+    height: 2em;
+    font-size: 5em;
+}
+.figures{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot_gal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;    
+    background: white;
+    height: 10vh;
+}
+.nav_gal a{
+    text-decoration: none;
+    color: rgb(220,220,220,0.8);
+
+}
+.comment{
+    background-color: white;
+    text-align: center;
+    padding-top: 5vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+.avatar{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+.horizon{
+    color: white;
+    height: 25vh;
+    text-align: center;
+}
+.contact{
+    color: white;
+    text-align: center;
+}
+.contact>div>form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact>div div{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+.footer div{
+    width: 25%;
+}
